@@ -90,12 +90,6 @@ h6,
 
 a {
     text-decoration: none;
-    color: inherit;
-}
-
-a:hover {
-    background-color: var(--green);
-
 }
 
 img {
@@ -105,6 +99,9 @@ img {
 
 main {
     margin-bottom: 4rem;
+}
+table {
+    border-collapse: collapse;
 }
 
 figure {
@@ -133,4 +130,108 @@ footer {
     margin: 0 auto;
     max-width: 375px;
     background-color: var(--white);
+}
+section {
+    margin : 1rem;
+}
+h1 {
+    font-family: var(--serif);
+    font-weight: var(--w3);
+}
+.preparation {
+    background-color: var(--rose-white);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.preparation h3 {
+    padding-left: 1rem;
+    color: var(--dark-raspberry);
+    font-weight: var(--w2);
+}
+.preparation ul li::marker {
+    color: var(--dark-raspberry);
+}
+
+h2 {
+    color: var(--nutmeg);
+    font-family: var(--serif);
+}
+li::marker {
+    color: var(--nutmeg);
+    font-weight: var(--w2);
+}
+ul li::marker {
+    font-size: 0.8rem;
+}
+h1 , h2 {
+    font-weight: var(--w3);
+}
+.bold {
+    font-weight: var(--w2);
+}
+li p {
+    padding-left: 1rem;
+}
+.nutrition , .instructions {
+    border-top: 1px solid var(--light-grey);
+}
+.nutrition table {
+    width: 50%;
+    margin-left: 2rem;
+}
+.nutrition table tr {
+    border-bottom: 1px solid var(--light-grey);
+}
+.nutrition table td {
+    padding: 1rem;
+}
+.nutrition table td:last-child {
+    font-weight: var(--w1);
+    color: var(--nutmeg);
+}
+@media (min-width: 440px) {
+    #wrapper {
+        max-width: 440px;
+        margin: 2rem auto;
+        padding: 1rem;
+    }
+    #wrapper,
+    img,
+    .preparation {
+        border-radius: 0.5rem;
+    }
+    .nutrition table {
+        width: 65%;
+    }
+}
+@media (min-width: 660px) {
+    #wrapper {
+            max-width: 600px;
+            margin: 4rem auto;
+            
+        }
+    #wrapper,
+    img,
+    .preparation {
+        border-radius: 1rem;
+    }
+}
+@media (min-width: 800px) {
+    #wrapper {
+            max-width: 700px;
+            margin: 150px auto;
+            padding: 2rem;
+        }
+}
+@media (min-width: 1440px) {
+    #wrapper {
+        margin: 150px auto;
+        max-width: 1000px;
+        padding: 3rem;
+    }
+    #wrapper,
+    img,
+    .preparation {
+        border-radius: 1rem;
+    }
 }
