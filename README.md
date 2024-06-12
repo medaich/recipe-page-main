@@ -5,7 +5,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- [Solution URL:]()
+- [Solution URL:](https://medaich.github.io/recipe-page-main/)
 - [Live Site URL:](https://github.com/medaich/recipe-page-main)
 
 ### Built with
