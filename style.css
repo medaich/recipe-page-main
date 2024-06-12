@@ -143,7 +143,7 @@ h1 {
     padding: 1rem;
     border-radius: 0.5rem;
 }
-.preparation h3 {
+.preparation h2 {
     padding-left: 1rem;
     color: var(--dark-raspberry);
     font-weight: var(--w2);
@@ -152,7 +152,7 @@ h1 {
     color: var(--dark-raspberry);
 }
 
-h2 {
+h2:not(.h5) {
     color: var(--nutmeg);
     font-family: var(--serif);
 }
@@ -163,7 +163,7 @@ li::marker {
 ul li::marker {
     font-size: 0.8rem;
 }
-h1 , h2 {
+h1 , h2:not(.h5) {
     font-weight: var(--w3);
 }
 .bold {
